@@ -1,0 +1,17 @@
+
+> hospital-patient-flow-client@1.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m699[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m2:22:25 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Beds.jsx, /src/styles.css[22m
+[2m2:31:24 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Patients.jsx, /src/styles.css[22m
+[2m2:39:25 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Patients.jsx, /src/styles.css[22m
+[2m2:43:07 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Patients.jsx, /src/styles.css[22m
+[2m2:43:16 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Patients.jsx, /src/styles.css[22m
+[2m3:06:45 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Admissions.jsx, /src/styles.css[22m
+[2m3:06:47 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Discharges.jsx, /src/styles.css[22m
+[2m3:37:28 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Admissions.jsx, /src/styles.css[22m
+[2m3:37:30 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Discharges.jsx, /src/styles.css[22m

@@ -1,0 +1,60 @@
+
+> hospital-patient-flow@1.0.0 dev
+> concurrently "npm run dev --prefix server" "npm run dev --prefix client"
+
+[0] 
+[0] > hospital-patient-flow-server@1.0.0 dev
+[0] > nodemon server.js
+[0] 
+[1] 
+[1] > hospital-patient-flow-client@1.0.0 dev
+[1] > vite
+[1] 
+[0] [33m[nodemon] 3.1.14[39m
+[0] [33m[nodemon] to restart at any time, enter `rs`[39m
+[0] [33m[nodemon] watching path(s): *.*[39m
+[0] [33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[0] [32m[nodemon] starting `node server.js`[39m
+[1] X [ERROR] Cannot read directory "../../../..": Access is denied.
+[1] 
+[1] X [ERROR] Could not resolve "C:\\Users\\Administrator\\Desktop\\S7 Mini\\hospital-patient-flow\\client\\vite.config.js"
+[1] 
+[1] [31mfailed to load config from C:\Users\Administrator\Desktop\S7 Mini\hospital-patient-flow\client\vite.config.js[39m
+[1] [31merror when starting dev server:
+[1] Error: Build failed with 2 errors:
+[1] error: Cannot read directory "../../../..": Access is denied.
+[1] error: Could not resolve "C:\\Users\\Administrator\\Desktop\\S7 Mini\\hospital-patient-flow\\client\\vite.config.js"
+[1]     at failureErrorWithLog (C:\Users\Administrator\Desktop\S7 Mini\hospital-patient-flow\client\node_modules\esbuild\lib\main.js:1472:15)
+[1]     at C:\Users\Administrator\Desktop\S7 Mini\hospital-patient-flow\client\node_modules\esbuild\lib\main.js:945:25
+[1]     at runOnEndCallbacks (C:\Users\Administrator\Desktop\S7 Mini\hospital-patient-flow\client\node_modules\esbuild\lib\main.js:1315:45)
+[1]     at buildResponseToResult (C:\Users\Administrator\Desktop\S7 Mini\hospital-patient-flow\client\node_modules\esbuild\lib\main.js:943:7)
+[1]     at C:\Users\Administrator\Desktop\S7 Mini\hospital-patient-flow\client\node_modules\esbuild\lib\main.js:970:16
+[1]     at responseCallbacks.<computed> (C:\Users\Administrator\Desktop\S7 Mini\hospital-patient-flow\client\node_modules\esbuild\lib\main.js:622:9)
+[1]     at handleIncomingPacket (C:\Users\Administrator\Desktop\S7 Mini\hospital-patient-flow\client\node_modules\esbuild\lib\main.js:677:12)
+[1]     at Socket.readFromStdout (C:\Users\Administrator\Desktop\S7 Mini\hospital-patient-flow\client\node_modules\esbuild\lib\main.js:600:7)
+[1]     at Socket.emit (node:events:518:28)
+[1]     at addChunk (node:internal/streams/readable:561:12)[39m
+[1] npm run dev --prefix client exited with code 1
+[0] MongoDB connected: localhost
+[0] Server running on port 5000
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] starting `node server.js`[39m
+[0] MongoDB connected: localhost
+[0] Server running on port 5000
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] starting `node server.js`[39m
+[0] MongoDB connected: localhost
+[0] Server running on port 5000
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] restarting due to changes...[39m
+[0] [32m[nodemon] restarting due to changes...[39m

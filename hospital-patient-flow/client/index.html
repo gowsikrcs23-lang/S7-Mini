@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Hospital Patient Flow Dashboard</title>
+  </head>
+  <body>
+    <div id="root">
+      <main style="display: grid; min-height: 100vh; place-items: center; overflow: hidden; background: #092c33; color: #f4fffd; font-family: Inter, Arial, sans-serif;">
+        <section style="width: min(90vw, 31rem); padding: 52px 36px 34px; border: 1px solid rgba(196,255,244,.16); border-radius: 24px; background: linear-gradient(145deg, rgba(21,75,81,.9), rgba(7,43,51,.9)); box-shadow: 0 24px 80px rgba(0,20,27,.34); text-align: center;">
+          <div style="display: grid; width: 72px; height: 72px; margin: 0 auto 28px; place-items: center; border: 1px solid rgba(186,255,243,.38); border-radius: 22px; background: linear-gradient(145deg, #0fb5a3, #087f81); font-size: 30px;">♥</div>
+          <div style="margin-bottom: 14px; color: #8df1df; font-size: 12px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase;">CareFlow</div>
+          <h1 style="margin: 0; font-size: 26px; line-height: 1.2;">Preparing your workspace</h1>
+          <p style="margin: 11px auto 28px; color: #a4c7c7; font-size: 14px; line-height: 1.55;">Synchronizing your secure hospital operations dashboard</p>
+          <div style="height: 5px; overflow: hidden; border-radius: 999px; background: rgba(214,255,248,.13);"><span style="display: block; width: 42%; height: 100%; border-radius: inherit; background: #8df1df; animation: initial-loading 2s ease-in-out infinite;"></span></div>
+        </section>
+      </main>
+    </div>
+    <style>@keyframes initial-loading { 0% { transform: translateX(-120%); } 55%, 100% { transform: translateX(270%); } }</style>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
